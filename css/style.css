@@ -327,7 +327,7 @@ a:focus {
 
 .slider_section .img-box img {
   width: 100%;
-  max-width: 375px;
+  
 }
 
 .slider_section .carousel-indicators {
@@ -509,10 +509,14 @@ a:focus {
 
 .doctor_section .box .img-box {
   width: 100%;
+  object-fit: scale-down;
+  
 }
 
 .doctor_section .box .img-box img {
   width: 100%;
+  height: 100%;
+  
 }
 
 .doctor_section .box .detail-box {
